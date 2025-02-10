@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>second page</title>
+        <style>
+            body{
+                background-image: url(https://i.pinimg.com/736x/e9/71/47/e97147640b9dda407e0ba9e278fd4dea.jpg);
+           }
+
+           p,h1,h2{
+            color: antiquewhite;
+            margin: 0;
+            padding: 0;
+           }
+
+           p{
+            display: inline-block;
+            margin: 8px;
+           }
+
+           .search{
+            background-color: rgb(68,51,41);
+           }
+
+           .box{
+            background-color: rgb(42,27,20);
+            width: 500px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 60px;
+            padding-top: 35px;
+            padding-bottom: 50px;
+            text-align: left;
+            padding-left: 50px;
+            width: 400px;
+            border: solid;
+            border-color: rgb(26, 21, 21);
+            box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+           }
+          
+           .search{
+            color: white;
+           }
+
+           .txt{
+            color: antiquewhite;
+            margin: 5px;
+           }
+
+           .b{
+            margin-bottom: 7px;
+           }
+
+           .img{
+            width: 250px;
+            opacity: 95%;
+            margin-top: 25px;
+            padding-left: 60px;
+            margin-bottom: 25px;
+           }
+           .button{
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 25px;
+                height: 40px;
+                width: 150px;
+                background-color: rgb(20, 12, 12);
+                color: antiquewhite;
+                align-items: center;
+                margin-left: 100px;
+           }
+           .button:hover{
+            opacity: 70%;
+           }
+           .button:active{
+            background-color: rgb(123,70,60);
+           }
+           .align{
+            margin-left: 20px;
+           }
+           .link{
+            color: rgb(243, 235, 235);
+            opacity: 100%;
+           }
+           .aligns{
+            margin-left: 5px
+           }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1 style="padding-bottom: 5px; color: white;">Enter Details</h1>
+            <div class="aligns">
+                <p>Enter name: </p>
+                <input class="search" type="search" placeholder="Enter name">
+                <br>
+                <p>Enter Mobile Number:  </p>
+                <input class="search" type="search" placeholder="Enter mobile number">
+                <br>
+                <p>Enter Address:  </p>
+                <input class="search" type="search" placeholder="Address">
+                <br>
+            </div>
+                
+                <img class="img" src="https://i.pinimg.com/originals/76/b0/5d/76b05da99faf4ac73e7b7c0837feb3df.gif"><br>
+                <p style="font-size: larger;"><i>Choose items:</i></p><br>
+                <div class="align">
+                    <p style="color: rgb(220,159,88);">Coffee:</p><br>
+                    <input class="b" type="checkbox" id="French Vanilla">
+                    <label class="txt" for="French Vanilla">French Vanilla</label><br>
+                    <input class="b" type="checkbox" id="Caramel Macchiato">
+                    <label class="txt" for="Caramel Macchiato">Caramel Macchiato</label><br>
+                    <input class="b" type="checkbox" id="Pumpkin Spice">
+                    <label class="txt" for="Pumpkin Spice">Pumpkin Spice</label><br>
+                    <input class="b" type="checkbox" id="Hazelnut">
+                    <label class="txt" for="Hazelnut">Hazelnut</label><br>
+                    <p style="color: rgb(220,159,88);">Desserts</p><br>
+                    <input class="b" type="checkbox" id="Donut">
+                    <label class="txt" for="Donut">Donut</label><br>
+                    <input class="b" type="checkbox" id="Cherry Pie">
+                    <label class="txt" for="Cherry Pie">Cherry Pie</label><br>
+                    <input class="b" type="checkbox" id="Cheesecake">
+                    <label class="txt" for="Cheesecake">Cheesecake</label><br>
+                    <input class="b" type="checkbox" id="Cinnamon Roll">
+                    <label class="txt" for="Cinnamon Roll">Cinnamon Roll</label>
+                    <br><br><br>
+                </div>
+                
+                <button class="button">
+                    <a href="cafe-menu-3.html" class="link">Confirm Order</a>
+                </button>
+
+        </div>
+     </body>
+</html>
